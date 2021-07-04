@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Deva Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul 
+            div#logo 
+               img(src="/static/2.png")
+               | DDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+            li #[a(href="/") Services]
+
+    block content
+    footer#footer
+        | Copyright @ DevaDanceAcademy.com | All rights reserved
+
+    script
+      include ../static/index.js
+      

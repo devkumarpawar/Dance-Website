@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+    title Deva's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo 
+               img(src="/static/2.png")
+               | DDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+            li #[a(href="/") Services]
+    section#introSection
+        div Welcome to Deva's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+          h3 Dance Perfection
+          div.card-box
+              div.card-img
+                  img(src="/static/1.png") 
+              div.card-content
+                  p Elevate Your Dance
+        div.card 
+          h3 Dance the way you Like
+          div.card-box
+              div.card-img
+                  img(src="/static/2.png") 
+              div.card-content
+                  p Dance Your Soul Away 
+        div.card 
+          h3 Expert Teaching
+          div.card-box
+              div.card-img
+                  img(src="/static/3.png") 
+              div.card-content
+                  p Create.Dance.Live.Repeat
+
+    section#sponsersSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/logo1.png", alt="Sponsor Image",class="spImage")
+            img(src="/static/logo2.png", alt="Sponsor Image",class="spImage")
+            img(src="/static/logo3.png", alt="Sponsor Image",class="spImage") 
+            img(src="/static/logo4.png", alt="Sponsor Image",class="spImage") 
+    
+    footer#footer 
+        | Copyright @ DevaDanceAcademy.com | All rights reserved
+            
+            
+    script
+      include ../static/index.js

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Roboto:wght@500&family=Yeon+Sung&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height:45px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #f31111;
+    padding: 18px  14px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:13px 30px;
+    font-size: 30px;
+
+}
+#navbar li a:hover{
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    padding:13px 20px;
+
+}
+#introSection{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: center/cover no-repeat url('/static/dancepic.jpg');
+    height: 425px;                
+    background-color: red;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 65px;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height:326px;
+    display: block;
+    margin: auto;
+    width: 67%;
+}
+#missionSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Yeon Sung';
+}
+.card{
+    background-color: #fff6f6;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 20px;
+    height: 209px;
+
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+
+}
+.card-img img{
+    height: inherit;
+    margin:0 50px;
+}
+.card-content{
+    padding:0 10px;
+}
+.card-content p{
+    font-size: 15px;
+    padding:0 40px;
+}
+
+#sponsersSection{
+    height: 300px;
+    background-color: rgb(241 168 168 / 78%);
+}
+#sponsorSection h3{
+    text-align: center;
+    padding-top: 12px;
+}
+#sponsersSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Yeon Sung';
+}
+#sponsors{
+    height: 170px;
+    max-width: 1000px;
+    margin:28px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    height:60px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+    align-items: center;
+}
